@@ -8,7 +8,7 @@ async function get(req, res, next) {
 
         if (req.params.badge_number) {
             if (Number.isInteger(req.params.badge_number)) {
-                res.status(423).end();
+                res.status(422).end();
             }
             else if (rows.length === 1) {
                 res.status(200).json(rows[0]);
