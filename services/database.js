@@ -5,22 +5,17 @@ oracledb.outFormat = oracledb.OUT_FORMAT_OBJECT;
 
 async function initialise() {
     const pool = await oracledb.createPool(dbConfig.dbConn);
-    console.log(pool)
 }
 
-
 module.exports.initialise = initialise;
-
 
 function simpleRun(statement, binds = [], opts = {}) {
     return new Promise(async (resolve, reject) => {
         let conn;
-
         opts.outFormat = oracledb.OBJECT;
         opts.autoCommit = true;
 
-        // getting the information from database
-        
+        // getting the information from database        
         try {
             conn = await oracledb.getConnection();
             const result = await conn.execute(statement, binds, opts);

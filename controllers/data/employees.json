@@ -1,0 +1,222 @@
+[
+  {
+    ID: 1,
+    FIRSTNAME: 'John',
+    LASTNAME: 'Smith',
+    BADGE_NUMBER: 101,
+    COUNTRY_CODE: 'irl',
+    job_title_name: 'Software Engineer',
+    department_name: 'Software',
+    START_DATE: 2020-06-07T13:53:18.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 2,
+    FIRSTNAME: 'James',
+    LASTNAME: 'Dunne',
+    BADGE_NUMBER: 102,
+    COUNTRY_CODE: 'irl',
+    job_title_name: 'Software Support',
+    department_name: 'Software',
+    START_DATE: 2020-06-07T13:53:18.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 3,
+    FIRSTNAME: 'Jane',
+    LASTNAME: 'Doe',
+    BADGE_NUMBER: 103,
+    COUNTRY_CODE: 'gb',
+    job_title_name: 'Sales Manager',
+    department_name: 'Sales',
+    START_DATE: 2020-06-07T13:53:18.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 4,
+    FIRSTNAME: 'Carly',
+    LASTNAME: 'simms',
+    BADGE_NUMBER: 104,
+    COUNTRY_CODE: 'us',
+    job_title_name: 'Customer Success',
+    department_name: 'Sales',
+    START_DATE: 2020-06-07T13:53:18.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 5,
+    FIRSTNAME: 'Antonio',
+    LASTNAME: 'Cruz',
+    BADGE_NUMBER: 105,
+    COUNTRY_CODE: 'br',
+    job_title_name: 'Accounts Receivable',
+    department_name: 'Finance',
+    START_DATE: 2020-06-07T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 6,
+    FIRSTNAME: 'Aarav',
+    LASTNAME: 'Pappu',
+    BADGE_NUMBER: 106,
+    COUNTRY_CODE: 'ind',
+    job_title_name: 'Accounts Receivable',
+    department_name: 'Finance',
+    START_DATE: 2020-06-07T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 7,
+    FIRSTNAME: 'Mark',
+    LASTNAME: 'Chambelain',
+    BADGE_NUMBER: 107,
+    COUNTRY_CODE: 'gb',
+    job_title_name: 'HR Manager',
+    department_name: 'HR',
+    START_DATE: 2020-06-07T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 8,
+    FIRSTNAME: 'Tim',
+    LASTNAME: 'masters',
+    BADGE_NUMBER: 108,
+    COUNTRY_CODE: 'us',
+    job_title_name: 'Sales Manager',
+    department_name: 'Sales',
+    START_DATE: 2020-06-07T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 9,
+    FIRSTNAME: 'kelsey',
+    LASTNAME: 'Cook',
+    BADGE_NUMBER: 109,
+    COUNTRY_CODE: 'irl',
+    job_title_name: 'Account Manager',
+    department_name: 'Sales',
+    START_DATE: 2020-06-07T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 10,
+    FIRSTNAME: 'Dylan',
+    LASTNAME: 'Peters',
+    BADGE_NUMBER: 110,
+    COUNTRY_CODE: 'irl',
+    job_title_name: 'HR Administrator',
+    department_name: 'HR',
+    START_DATE: 2020-06-07T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 11,
+    FIRSTNAME: 'Christophe',
+    LASTNAME: 'Guivarch',
+    BADGE_NUMBER: 111,
+    COUNTRY_CODE: 'fr',
+    job_title_name: 'Software Support',
+    department_name: 'Software',
+    START_DATE: 2020-06-07T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 12,
+    FIRSTNAME: 'Kyle',
+    LASTNAME: 'Chambers',
+    BADGE_NUMBER: 112,
+    COUNTRY_CODE: 'irl',
+    job_title_name: 'Marketing Manager',
+    department_name: 'Marketing',
+    START_DATE: 2017-12-20T13:53:19.000Z,
+    LEAVE_DATE: 2020-09-05T13:53:19.000Z
+  },
+  {
+    ID: 13,
+    FIRSTNAME: 'Haillie',
+    LASTNAME: 'riley',
+    BADGE_NUMBER: 113,
+    COUNTRY_CODE: 'gb',
+    job_title_name: 'Marketing Manager',
+    department_name: 'Marketing',
+    START_DATE: 2020-06-07T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 14,
+    FIRSTNAME: 'Harry',
+    LASTNAME: 'Jones',
+    BADGE_NUMBER: 114,
+    COUNTRY_CODE: 'us',
+    job_title_name: 'Software Manager',
+    department_name: 'Software',
+    START_DATE: 2017-12-20T13:53:19.000Z,
+    LEAVE_DATE: 2020-09-05T13:53:19.000Z
+  },
+  {
+    ID: 15,
+    FIRSTNAME: 'Mary',
+    LASTNAME: 'Shelley',
+    BADGE_NUMBER: 115,
+    COUNTRY_CODE: 'irl',
+    job_title_name: 'Marketing Consultant',
+    department_name: 'Marketing',
+    START_DATE: 2019-08-12T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 16,
+    FIRSTNAME: 'Alice',
+    LASTNAME: 'Kelly',
+    BADGE_NUMBER: 116,
+    COUNTRY_CODE: 'irl',
+    job_title_name: 'Customer Success',
+    department_name: 'Sales',
+    START_DATE: 2019-08-12T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 17,
+    FIRSTNAME: 'Richard',
+    LASTNAME: 'Kelly',
+    BADGE_NUMBER: 117,
+    COUNTRY_CODE: 'irl',
+    job_title_name: 'Accounts Receivable',
+    department_name: 'Finance',
+    START_DATE: 2019-08-12T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 18,
+    FIRSTNAME: 'Anamika',
+    LASTNAME: 'Khandare',
+    BADGE_NUMBER: 118,
+    COUNTRY_CODE: 'ind',
+    job_title_name: 'Accounts Payable',
+    department_name: 'Finance',
+    START_DATE: 2019-08-12T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 19,
+    FIRSTNAME: 'Francisco',
+    LASTNAME: 'Sousa',
+    BADGE_NUMBER: 119,
+    COUNTRY_CODE: 'br',
+    job_title_name: 'Software Engineer',
+    department_name: 'Software',
+    START_DATE: 2019-08-12T13:53:19.000Z,
+    LEAVE_DATE: null
+  },
+  {
+    ID: 20,
+    FIRSTNAME: 'Vicoria',
+    LASTNAME: 'De Sousa',
+    BADGE_NUMBER: 120,
+    COUNTRY_CODE: 'col',
+    job_title_name: 'Software Engineer',
+    department_name: 'Software',
+    START_DATE: 2019-08-12T13:53:19.000Z,
+    LEAVE_DATE: null
+  }
+]

@@ -3,19 +3,19 @@ const badges = require('../dbModel/badges.js');
 async function get(req, res, next) {
     try {
         const context = {};
+        console.log("req.params.badge_number", typeof req.params.badge_number)
         context.badge_number = req.params.badge_number;
         const rows = await badges.find(context);
+        let bandge_number_int = parseInt(context.badge_number)
 
-        if (req.params.badge_number) {
-            if (Number.isInteger(req.params.badge_number)) {
-                res.status(422).end();
-            }
-            else if (rows.length === 1) {
-                res.status(200).json(rows[0]);
+        if (bandge_number_int) {
+            if (typeof bandge_number_int === "number") {
+                res.status(200).json(rows);
             }
             else {
-                res.status(404).end(`Not Found 404\nno records found with a following badge number`, context.badge_number);
+                res.status(404).end('no badge number matches');
             }
+            
         } else {
             res.status(200).json(rows);
         }
