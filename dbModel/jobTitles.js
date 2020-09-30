@@ -14,9 +14,7 @@ async function find(context) {
     // if the was a BADGE_NUMBER added to url it will append the below to the sql statetemt
 	if (context.department_name) {
 		binds.department_name = context.department_name;
-        query += `\nWHERE department_name = :department_name`;
-        console.log("query", query);
-        
+        query += `\nWHERE department_name = :department_name`;        
     }
     
 	const result = await database.simpleRun(query, binds);

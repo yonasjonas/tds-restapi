@@ -3,7 +3,6 @@ const badges = require('../dbModel/badges.js');
 async function get(req, res, next) {
     try {
         const context = {};
-        console.log("req.params.badge_number", typeof req.params.badge_number)
         context.badge_number = req.params.badge_number;
         const rows = await badges.find(context);
         let bandge_number_int = parseInt(context.badge_number)

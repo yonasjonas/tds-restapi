@@ -1,6 +1,4 @@
 const database = require('../services/database.js');
-const fetch = require('node-fetch');
-
 
 async function find(context) {
 	//let country_code = "irl"
@@ -20,8 +18,8 @@ async function find(context) {
 	
 	if (context.department_name) {
 		let department_name = context.country_code;
-		binds.department_name = department_name;
-		query += `\nWHERE Department.department_name = :department_name`;
+		binds.department_name = context.department_name;
+		query += `\nWHERE firstname = :department_name`;
 	}
 
 

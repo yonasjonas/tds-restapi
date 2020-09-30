@@ -7,9 +7,7 @@ async function find(context) {
 
 	let query = baseQuery;
 	const binds = {};
-
 	const result = await database.simpleRun(query, binds);
-
 	return result.rows;
 }
 
