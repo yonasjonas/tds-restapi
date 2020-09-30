@@ -5,9 +5,9 @@ const basicAuth = require('express-basic-auth')
 
 // BASIC AUTHENTICATION
 
-/* app.use(basicAuth({
+app.use(basicAuth({
     users: { 'admin': 'pass' }
-})) */
+}))
 
 // below sends us to /api page and next step is handled inside ./router.js
 app.use('/api', router);
